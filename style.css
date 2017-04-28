@@ -1,0 +1,199 @@
+/* background */
+body {
+    background-image: url("http://i.imgur.com/WAJCbq0.png");
+    background-size: auto;
+}
+/* title */
+.title-box {
+    font-family: orbitron;
+    display: flex;
+    margin: 15px;
+    border-style: double;
+    border-width: thick;
+    border-color: limegreen;
+    border-radius: 30px;
+    background-color: black;
+    opacity: 0.6;
+    padding: 30px;
+    min-width: 550px;
+}
+
+h1 {
+    color: limegreen;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.logo {
+    height: 100px;
+}
+
+/* main */
+.main-app {
+    padding: 15px;
+}
+
+/* city form */
+.city-form {
+    background-color: black;
+    opacity: 0.6;
+    padding: 20px;
+    padding-left: 50px;
+    width: 500px;
+    margin-top: 20px;
+    border-style: double;
+    border-width: thick;
+    border-color: limegreen;
+    border-radius: 30px;
+}
+
+.city-prompt {
+    font-family: orbitron;
+    color: limegreen;
+}
+
+.city-input {
+    background-color: lightgray;
+    color: green;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    font-family: orbitron;
+    margin-bottom: 20px;
+}
+
+.get-weather-button {
+    background-color: limegreen;
+    color: darkgreen;
+    margin-left: -5px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    font-family: orbitron;
+    cursor: pointer;
+}
+
+.city-input, .get-weather-button {
+    height: auto;
+}
+
+/* result */
+.city-weather {
+    color: limegreen;
+    font-family: orbitron;
+    min-width: 550px;
+}
+
+/* city name */
+.section-title {
+    font-size: 3em;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+/* current weather */
+.currentWeather {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 40px;
+    border-style: double;
+    border-width: thick;
+    border-color: limegreen;
+    border-radius: 30px;    
+    background-color: black;
+    opacity: 0.6;
+}
+
+.weather-temp {
+    font-size: 3em;
+    color: white;
+}
+
+.weather-icon {
+    display: inline-block;
+    width: 50%;
+    min-width:300px;
+    vertical-align: middle;
+}
+
+.icon {
+    width: 100%;    
+}
+
+.temp-div {
+    display : inline-block;
+    width: 50%;
+    text-align: center;
+    color: white;
+    height: width;
+    vertical-align: middle;
+} 
+
+.actual-temp {
+    font-size: 72px;
+}
+
+.apparent-temp {
+    font-size: 1em;
+}
+
+.current-wind {
+    font-family: orbitron;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+/* forecast */
+.forecast {
+    width: 100%;
+    min-width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    padding-left: 40px;
+    border-style: double;
+    border-width: thick;
+    border-color: limegreen;
+    border-radius: 30px;    
+    background-color: black;
+    color: limegreen;
+    opacity: 0.6;
+}
+
+.daily-forecast {
+    width: 230px;
+    border-style: solid;
+    border-width: medium;
+    border-color: limegreen;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #5E5E5E;
+    margin: 5px;
+}
+
+.id {
+    text-align: left;
+    font-family: orbitron;
+    margin-left: 10px;
+    color: limegreen;
+}
+
+.value {
+    font-family: orbitron;
+    padding-left: 10px;
+    color: lightgray;
+    display: inline;
+}
+
+
+footer {
+    font-size: 10px;
+    text-align: right;
+    color: dimgray;
+}
