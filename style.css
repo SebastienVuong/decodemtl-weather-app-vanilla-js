@@ -193,14 +193,14 @@ h1 {
 
 
 footer {
+    margin: 15px;
     margin-top: 50px;
     font-size: 10px;
     text-align: center;
     border-style: solid;
-    background-color: gray;
+    background-color: black;
     opacity: 0.8;
     min-width: 600px;
-    
 }
 
 .ad-description {
