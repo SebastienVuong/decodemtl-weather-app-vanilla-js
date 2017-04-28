@@ -193,7 +193,41 @@ h1 {
 
 
 footer {
+    margin-top: 50px;
     font-size: 10px;
-    text-align: right;
-    color: dimgray;
+    text-align: center;
+    border-style: solid;
+    background-color: gray;
+    opacity: 0.8;
+    min-width: 600px;
+    
+}
+
+.ad-description {
+    display: inline-block;
+    color: tomato;
+    font-size: 4vw;
+    width: 75%;
+    text-align: left;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.ad-logo {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.sponsor {
+    font-size: 32px;
+    color: lightgray;
+    display: block;
+    font-weight: bold;
+}
+
+.ad-banner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
