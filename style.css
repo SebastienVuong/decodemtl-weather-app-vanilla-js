@@ -191,7 +191,7 @@ h1 {
     display: inline;
 }
 
-
+/* footer */
 footer {
     margin: 15px;
     margin-top: 50px;
@@ -201,6 +201,11 @@ footer {
     background-color: black;
     opacity: 0.8;
     min-width: 600px;
+}
+
+@keyframes blinking {
+    from {color: lightgray}
+    to {color: red}
 }
 
 .ad-description {
@@ -221,9 +226,11 @@ footer {
 
 .sponsor {
     font-size: 32px;
-    color: lightgray;
     display: block;
     font-weight: bold;
+    animation-name: blinking;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
 }
 
 .ad-banner {
@@ -231,3 +238,9 @@ footer {
     flex-wrap: nowrap;
     justify-content: space-around;
 }
+
+@keyframes blinking {
+    from {color:white}
+    to {color:red}
+}
+
